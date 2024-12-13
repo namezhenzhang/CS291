@@ -1,0 +1,15 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: meta-llama/Llama-3.2-8B-Instruct
+adapter_name_or_path: saves/llama3-8b/lora/reward
+template: llama3
+finetuning_type: lora
+
+stage: rm
+
+### export
+export_dir: models/llama3_lora_reward
+export_size: 2
+export_device: cpu
+export_legacy_format: false

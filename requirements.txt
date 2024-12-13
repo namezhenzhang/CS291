@@ -1,0 +1,7 @@
+transformers
+torch
+datasets
+tqdm
+numpy
+accelerate
+deepspeed==0.15.4

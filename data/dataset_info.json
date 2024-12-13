@@ -1,0 +1,12 @@
+{
+    "preference_data": {
+        "file_name": "preference_data.json",
+        "ranking": true,
+        "formatting": "sharegpt",
+        "columns": {
+          "messages": "conversations",
+          "chosen": "chosen",
+          "rejected": "rejected"
+        }
+      }
+}
